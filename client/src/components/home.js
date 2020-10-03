@@ -14,6 +14,9 @@ setInterval(() => {
   var elem3 = document.getElementById('Carousel3')
   var instance3 = M.Carousel.getInstance(elem3)
   instance3.next()
+  var elem4 = document.getElementById('Carousel4')
+  var instance4 = M.Carousel.getInstance(elem4)
+  instance4.next()
 }, 5000);
 
 
@@ -71,7 +74,7 @@ window.onscroll = function(){
   {
     var ctx =canva2.getContext('2d')
     var chart = new Chart(ctx, {
-        type: 'horizontalBar',
+        type: 'bar',
     
         data: {
             labels: ['React.js', 'Node.js', 'MongoDB', 'MySql','Android', 'HTML5', 'CSS','C++','JAVA','Python', 'Adobe Photoshop'],
@@ -98,7 +101,7 @@ window.onscroll = function(){
         // Configuration options go here
         options: {
           scales: {
-            xAxes: [{
+            yAxes: [{
                 ticks: {
                     beginAtZero: true
                 }
@@ -178,7 +181,11 @@ const Home = () => {
     <div className="row">
       <div className="col m6 offset-m3 center"  style={{color:"white"}}>
      <quote> "True education must correspond to the surrounding circumstances or it is not a healthy growth."-Mahatma Gandhi</quote>
-     <br/><i class="fab fa-instagram-square"></i><i class="fab fa-linkedin"></i><i class="fab fa-github-square"></i>
+     <br/><a href="https://www.instagram.com/shashwat_xprose/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+     <a href="https://www.linkedin.com/in/shashwat-sahu-1427501aa/" target="_blank"><i class="fab fa-linkedin"></i></a>
+     <a href="https://github.com/Shashwat-Sahu" target="_blank">
+       <i class="fab fa-github-square"></i>
+       </a>
       </div>
     </div>
   </div>
@@ -329,35 +336,52 @@ const Home = () => {
       </div>
       
     </div>
+    <div className="container">
+        <h3 className="right" style={{textShadow:"0 0 15px gray"}}>Graphic Designing</h3></div>
       <div className="row">
         
-        <h3 className="right">Photoshop</h3>
         <Carousel
-  carouselId="Carousel3"
+  carouselId="Carousel4"
   className="white-text center photoshop"
   options={{
     fullWidth: false,
     indicators: true
   }}
   style={{width:"300px"}}
+  
 >
-  <div>
+  <a href="https://www.instagram.com/p/CE4TLxZp2ax/" target="_blank">
   
-  <img src="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2F1601734198913.png?v=1601734217632"/>
+  <img className="z-depth-4" src="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2F1601734198913.png?v=1601734217632"/>
   
-  </div>
+  </a>
   
-  <div>
+  <a href="https://www.instagram.com/p/B_JlH8pJcMR/" target="_blank">
   
-  <img src="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2Fpost1.jpg?v=1601734394219"/>
+  <img className="z-depth-4" src="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2Fpost1.jpg?v=1601734394219"/>
   
-  </div>
+  </a>
 
-  <div>
+  <a href="https://www.instagram.com/p/B97NvWTJqos/" target="_blank">
   
-  <img src="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FPOST1.jpg?v=1601734351004"/>
+  <img className="z-depth-4" src="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FPOST1.jpg?v=1601734351004"/>
   
-  </div>
+  </a>
+  
+  <a href="https://www.instagram.com/p/CD5WIubJK6W/" target="_blank">
+  
+  <img className="z-depth-4" src="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2Findependence_without_hindi.png?v=1601734357200"/>
+  
+  </a>
+  
+  <a href="https://www.instagram.com/p/CAAoRu5J-w1/" target="_blank">
+  
+  <img className="z-depth-4" src="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FMOTHERS%20DAY.jpg?v=1601734415723"/>
+  
+  </a>
+  <a href="https://www.instagram.com/p/CBdTMqrpcTB/" target="_blank">
+    <img className="z-depth-4" src="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2Fsushant.png?v=1601742460906"/>
+  </a>
 </Carousel>
       </div>
       
