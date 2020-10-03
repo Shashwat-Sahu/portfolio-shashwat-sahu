@@ -294,7 +294,7 @@ const Home = () => {
   </div>
   <div>
     <div style={{background:"url('https://i2.wp.com/files.123freevectors.com/wp-content/original/109010-light-mosaic-tile.jpg?w=800&q=95')"}}>
-    <div className="container project" >
+    <div className="container project" id="project" >
       <div className="row">
       <h1 style={{textShadow:"0 0 20px gray"}}>Projects</h1>
       </div>
@@ -391,7 +391,7 @@ const Home = () => {
       
     </div>
     <div id="header">
-      <div className="container">
+      <div className="container"  id="aspire">
         <h1 className="row"  data-aos="fade-right" data-aos-duration="4000">What I aspire to be !</h1>
     <div className="row">
       <div className="col m2 s12"  data-aos="fade-left" data-aos-duration="4000">
@@ -417,7 +417,7 @@ const Home = () => {
     </div>
       </div>
     </div>
-    <div className="container">
+    <div className="container" id="inspire">
       <div className="row"><h1>Inspiration</h1></div>
     <div className="row">
         <div className="col m6 offset-m3 s12">
@@ -460,7 +460,7 @@ const Home = () => {
     
     </div>
     <div id="header">
-      <div className="container center">
+      <div className="container center"  id="foot">
       <a href="https://www.instagram.com/shashwat_xprose/" target="_blank"><i class="fab fa-instagram-square"></i></a>
      <a href="https://www.linkedin.com/in/shashwat-sahu-1427501aa/" target="_blank"><i class="fab fa-linkedin"></i></a>
      <a href="https://github.com/Shashwat-Sahu" target="_blank">

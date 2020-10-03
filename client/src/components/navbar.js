@@ -25,6 +25,18 @@ const NavBar = () => {
             <NavItem href="#skills">
                 My Skills
   </NavItem>
+  <NavItem href="#project">
+                Projects
+  </NavItem>
+  <NavItem href="#aspire">
+                Aspiration
+  </NavItem>
+  <NavItem href="#inspire">
+                Inspiration
+  </NavItem>
+  <NavItem href="#foot">
+                Contact Me
+  </NavItem>
         </Navbar>
     )
 }
