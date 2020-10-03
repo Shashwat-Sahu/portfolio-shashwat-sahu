@@ -17,6 +17,10 @@ setInterval(() => {
   var elem4 = document.getElementById('Carousel4')
   var instance4 = M.Carousel.getInstance(elem4)
   instance4.next()
+
+  var elem5 = document.getElementById('Carousel5')
+  var instance5 = M.Carousel.getInstance(elem5)
+  instance5.next()
 }, 5000);
 
 
@@ -385,6 +389,85 @@ const Home = () => {
 </Carousel>
       </div>
       
+    </div>
+    <div id="header">
+      <div className="container">
+        <h1 className="row"  data-aos="fade-right" data-aos-duration="4000">What I aspire to be !</h1>
+    <div className="row">
+      <div className="col m2 s12"  data-aos="fade-left" data-aos-duration="4000">
+        <h4>Front-end Engineer</h4>
+        <p>Looking for opportunity in improvising front end components in a corporate.</p>
+      </div>
+      <div className="col m2 s12"  data-aos="fade-left" data-aos-duration="4000">
+        <h4>Back-end Engineer</h4>
+        <p>Want to simulate backend properties of server and would like to increase its efficiency too</p>
+      </div>
+      <div className="col m3 s12" data-aos="fade-left" data-aos-duration="4000">
+        <h4>Automation Engineer</h4>
+        <p>Automating tasks reduces human efforts to the lowest.From mail generating to accessing files and manipulating them, I am ready for it</p>
+      </div>
+      <div className="col m2 s12" data-aos="fade-left" data-aos-duration="4000">
+        <h4>Full Stack Developer</h4>
+        <p>Ready to group both front-end and back-end under one hood.</p>
+      </div>
+      <div className="col m2 s12" data-aos="fade-left" data-aos-duration="4000">
+        <h4>Software Developer</h4>
+        <p>Having proficiency in C++, Java and Python;<br/>I can work in software development too.</p>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div className="container">
+      <div className="row"><h1>Inspiration</h1></div>
+    <div className="row">
+        <div className="col m6 offset-m3 s12">
+      <Carousel
+  carouselId="Carousel5"
+  className="center"
+  options={{
+    fullWidth: true,
+    indicators: false
+  }}
+
+>
+<div>
+
+          <blockquote>“Our finest moments are most likely to occur 
+            when we are feeling deeply uncomfortable, unhappy, or unfulfilled. For it is only in such moments, propelled by our discomfort, 
+            that we are likely to step out of our ruts and start searching for different ways or truer answers.” — M. Scott Peck</blockquote>
+        
+        
+      </div>
+      
+<div>
+
+<blockquote>“There is no passion to be found in playing small — 
+  in settling for a life that is less than you are capable of living.” 
+  — Nelson Mandela</blockquote>
+
+  </div>
+  
+<div>
+<blockquote>“When everything seems to be going against you, 
+  remember that the airplane takes off against the wind, not with it.” — Henry Ford</blockquote>
+  </div>
+</Carousel>
+      </div>
+      </div>
+      <div className="row center">
+        <h4 style={{fontStyle:"italic"}}>My family will always be my inspiration</h4>
+      </div>
+    
+    </div>
+    <div id="header">
+      <div className="container center">
+      <a href="https://www.instagram.com/shashwat_xprose/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+     <a href="https://www.linkedin.com/in/shashwat-sahu-1427501aa/" target="_blank"><i class="fab fa-linkedin"></i></a>
+     <a href="https://github.com/Shashwat-Sahu" target="_blank">
+       <i class="fab fa-github-square"></i>
+       </a>
+       <h5>Dveloped By Shashwat</h5>
+      </div>
     </div>
   </div>
   </>)
