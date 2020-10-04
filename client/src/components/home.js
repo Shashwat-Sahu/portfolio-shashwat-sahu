@@ -202,7 +202,7 @@ const Home = () => {
     <div class="col m4 s12 "  >
       <div class="card hoverable"  data-aos="fade-right" data-aos-duration="4000" >
         <div class="card-image ">
-          <img src="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2Fdhd.jpg?v=1601794710575"/>
+          <img src="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2Fdhd.jpg?v=1601796245955"/>
           
         </div>
         <div class="card-content">
@@ -246,17 +246,17 @@ const Home = () => {
     shift: 0
   }}
 >
-<a target="_blank" href="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG_20200531_164015.jpg?v=1601794780209">
-    <img style={{height:"350px"}} src='https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG_20200531_164015.jpg?v=1601794780209'/>
+<a target="_blank" href="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG_20200531_164015.jpg?v=1601796247459">
+    <img style={{height:"350px"}} src='https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG_20200531_164015.jpg?v=1601796247459'/>
     </a>
-    <a target="_blank" href="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG20191002212808-edited.jpg?v=1601794878870">
-<img src= 'https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG20191002212808-edited.jpg?v=1601794878870'/>
+    <a target="_blank" href="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG20191002212808-edited.jpg?v=1601796249360">
+<img src= 'https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG20191002212808-edited.jpg?v=1601796249360'/>
 </a>
-<a target="_blank" href="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG_20201003_151324.jpg?v=1601794770978">
-   <img src='https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG_20201003_151324.jpg?v=1601794770978'/>
+<a target="_blank" href="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG_20190923_075520%20(1).jpg?v=1601796247002">
+   <img src='https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG_20190923_075520%20(1).jpg?v=1601796247002'/>
    </a>
-   <a target="_blank" href="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG_20190923_075520%20(1).jpg?v=1601794780729">
-<img src='https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG_20190923_075520%20(1).jpg?v=1601794780729'/>
+   <a target="_blank" href="https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG_20201003_151324.jpg?v=1601796247354">
+<img src='https://cdn.glitch.com/20457a5a-d27c-489c-a282-348e43dc34e6%2FIMG_20201003_151324.jpg?v=1601796247354'/>
 </a>
 
 
