@@ -5,9 +5,55 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
-
+a{
+  color: white;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.navbar{
+  background-color: black;
+}
+#title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#background{
+  color: white
+}
+
+#header{
+  background-image: url("./background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 1%;
+  color: white;
+}
+.title_box img{
+  width:25vw!important;
+  position: absolute;
+  bottom: 10%;
+}
+#Carousel2{
+  height: 60vh!important;
+}
+.card-image{
+  width: 100%;
+}
+.fab{
+  margin:1%;
+  font-size:2em;
+}
+span {
+  margin: 2%
+}
+.project{
+  color:black
+}
+#Carousel5{
+  height: 20vh!important;
 }
